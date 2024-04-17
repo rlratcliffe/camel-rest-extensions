@@ -62,7 +62,7 @@
     <!--  To pull openapi4j package-->
     <repositories>
         <repository>
-            <id>github</id>
+            <id>github-pull</id>
             <url>https://maven.pkg.github.com/rlratcliffe/camel-rest-extensions</url>
             <snapshots>
                 <enabled>true</enabled>
