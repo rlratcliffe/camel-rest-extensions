@@ -53,7 +53,7 @@
     <!-- To push camel-rest-extensions to github -->
     <distributionManagement>
         <snapshotRepository>
-            <id>github</id>
+            <id>github-push</id>
             <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/rlratcliffe/camel-rest-extensions</url>
         </snapshotRepository>
