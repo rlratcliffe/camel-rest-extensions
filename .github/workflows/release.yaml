@@ -16,6 +16,10 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
+      - name: maven-settings-xml-action
+        uses: whelk-io/maven-settings-xml-action@v22
+        with:
+          servers: '[{ "id": "github-pull", "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.READ_PACKAGE_TOKEN }}" }]'
       - name: Publish package
         run: mvn --batch-mode deploy
         env:
