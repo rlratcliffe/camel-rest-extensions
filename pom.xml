@@ -21,7 +21,7 @@
 
     <groupId>com.ms3-inc.tavros</groupId>
     <artifactId>camel-rest-extensions</artifactId>
-    <version>RLR-01-0.1.7-SNAPSHOT</version>
+    <version>0.1.7-SNAPSHOT</version>
 
     <name>Camel Rest Extensions</name>
     <description>A collection of utilities for camel web applications</description>
@@ -55,12 +55,12 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/rlratcliffe/camel-rest-extensions</url>
+            <url>https://maven.pkg.github.com/ms3inc/camel-rest-extensions</url>
         </repository>
         <snapshotRepository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/rlratcliffe/camel-rest-extensions</url>
+            <url>https://maven.pkg.github.com/ms3inc/camel-rest-extensions</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -68,7 +68,7 @@
     <repositories>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/rlratcliffe/openapi4j</url>
+            <url>https://maven.pkg.github.com/ms3inc/openapi4j</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -82,7 +82,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <camel.version>3.5.0</camel.version>
         <mycila.version>4.0.rc2</mycila.version>
-        <openapi4j.version>RLR-1.0.7-SNAPSHOT</openapi4j.version>
+        <openapi4j.version>MS3-1.0.8</openapi4j.version>
     </properties>
 
     <dependencies>
