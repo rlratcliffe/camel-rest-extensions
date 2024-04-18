@@ -19,6 +19,6 @@ jobs:
       - name: Override settings.xml to pull openapi4j package from GH and push camel-rest-extensions to GH using token with write:packages and read:packages scope
         uses: whelk-io/maven-settings-xml-action@v22
         with:
-          servers: '[{ "id": "github", "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PACKAGES_TOKEN }}" }]'
+          servers: '[{ "id": "github", "username": "${{ secrets.GITHUB_ACTOR }}", "password": "${{ secrets.GITHUB_TOKEN }}" }]'
       - name: Publish package
         run: mvn --batch-mode deploy
