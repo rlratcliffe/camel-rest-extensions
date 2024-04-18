@@ -21,7 +21,7 @@
 
     <groupId>com.ms3-inc.tavros</groupId>
     <artifactId>camel-rest-extensions</artifactId>
-    <version>RLR-0.1.7-SNAPSHOT</version>
+    <version>RLR-01-0.1.7-SNAPSHOT</version>
 
     <name>Camel Rest Extensions</name>
     <description>A collection of utilities for camel web applications</description>
